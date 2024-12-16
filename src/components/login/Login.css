@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+form {
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 100px;
+}
