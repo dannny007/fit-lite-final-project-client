@@ -40,7 +40,7 @@ const Login = () => {
 
   return (
     <div className="flex flex-col md:flex-row w-4/5 max-w-3xl mx-auto mt-24 bg-gray-100 rounded-lg shadow-lg overflow-hidden">
-      <div className=" md:flex flex-col justify-center items-center bg-blue-900 text-white w-2/2 p-8">
+      <div className=" md:flex flex-col justify-center items-center bg-blue-900 text-white w-2/2 p-8 ">
         <h1 className="text-3xl font-bold mb-4">Welcome back!</h1>
         <p className="text-lg text-center">
           To keep connected with us, please login into your personal account.
