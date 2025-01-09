@@ -121,7 +121,7 @@ const Navbar = () => {
               >
                 {/* <LocalMallIcon /> */}
                 {/* <span>FITlite</span> */}
-                <img src={logo} width={250} />
+                <img src={logo} width={350} />
               </div>
             </div>
 
