@@ -13,6 +13,7 @@ import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import HeadsetMicIcon from "@mui/icons-material/HeadsetMic";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
+import logo from "../../assets/images/final-logo.png";
 
 const Navbar = () => {
   const navigate = useNavigate();
@@ -78,7 +79,7 @@ const Navbar = () => {
   return (
     <header className="w-full fixed top-0 left-0 right-0 z-50">
       {/* Top Banner */}
-      <div className="bg-gradient-to-r from-customPurple to-purple-600 text-white py-2">
+      <div className="bg-gradient-to-r from-customPurple to-purple-600 text-white py-4">
         <div className="container mx-auto px-4 flex justify-between items-center text-sm">
           <div className="hidden md:flex items-center space-x-6">
             <div className="flex items-center gap-2">
@@ -102,10 +103,10 @@ const Navbar = () => {
       </div>
 
       {/* Main Navbar */}
-      <nav className="bg-customNavbar shadow-lg">
+      <nav className="bg-customNavbar shadow-lg ">
         <div className="container mx-auto px-4">
           {/* Upper Navbar */}
-          <div className="flex items-center justify-between py-4">
+          <div className="flex items-center justify-between py-0">
             {/* Logo and Mobile Menu Button */}
             <div className="flex items-center gap-4">
               <button
@@ -118,8 +119,9 @@ const Navbar = () => {
                 onClick={() => handleNavigation("/")}
                 className="text-white text-2xl font-bold cursor-pointer hover:text-customPurple transition-all duration-300 flex items-center gap-2"
               >
-                <LocalMallIcon />
-                <span>FITlite</span>
+                {/* <LocalMallIcon /> */}
+                {/* <span>FITlite</span> */}
+                <img src={logo} width={250} />
               </div>
             </div>
 
