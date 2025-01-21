@@ -23,7 +23,6 @@ function App() {
       <Route path="/" element={<MainLayout />}>
         <Route index element={<Home />} />
         <Route path="products" element={<Products />} />
-        {/* <Route path="about" element={<About />} /> */}
         <Route path="contact" element={<Contact />} />
         <Route path="updates" element={<Updates />} />
         <Route path="signup" element={<Signup />} />
@@ -32,8 +31,6 @@ function App() {
         <Route path="shop" element={<ProductList />} />
         <Route path="/product/:productId" element={<ProductDetail />} />
         <Route path="/search" element={<SearchResults />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/checkout" element={<Checkout />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/order-success" element={<OrderSuccess />} />
