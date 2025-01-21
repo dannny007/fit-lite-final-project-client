@@ -1,7 +1,7 @@
 import React from "react";
 import dumbbellImage from "../../assets/images/background images/Gym equipment.png";
 
-const AboutPage = () => {
+const About = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-200 via-gray-900 to-purple-900 text-white flex flex-col items-center  mx-auto px-4 py-8 mt-20 sm:mt-30 md:mt-40 lg:mt-40 xl:mt-40">
       <section className="flex flex-col md:flex-row justify-around items-center w-4/5 my-10 bg-purple-800 rounded-lg p-10">
@@ -35,4 +35,4 @@ const AboutPage = () => {
   );
 };
 
-export default AboutPage;
+export default About;
