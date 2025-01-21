@@ -29,12 +29,12 @@ const Footer = () => {
             </h2>
             <ul className="space-y-4">
               <li>
-                <a
-                  href="/about"
+                <Link
+                  to="/about"
                   className="text-white hover:text-customPurple transition-colors duration-300"
                 >
                   About Us
-                </a>
+                </Link>
               </li>
               <li>
                 <a

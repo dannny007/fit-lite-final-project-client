@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FiTrash2, FiArrowLeft, FiShoppingBag } from "react-icons/fi";
 import { useCart } from "../../contexts/CartContext";
 import { useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 const Cart = () => {
   const {
@@ -42,6 +43,10 @@ const Cart = () => {
       transition: { duration: 0.3 },
     },
   };
+
+  useEffect(() => {
+    window.scrollTo(window.innerWidth, 0);
+  }, []);
 
   if (cart.items.length === 0) {
     return (
